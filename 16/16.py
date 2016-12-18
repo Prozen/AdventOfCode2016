@@ -1,4 +1,3 @@
-import itertools
 a ="00111101111101000"
 while len(a) < 35651584:
     a = a+"0"+"".join("0" if x =="1" else "1" for x in a[::-1])
